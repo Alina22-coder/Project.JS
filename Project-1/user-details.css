@@ -5,33 +5,41 @@
 }
 
 body{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
+    color: #272848;
+
 }
 
 ul{
     list-style: none;
-
 }
 
 button{
-    font-family: 'Arial', sans-serif;
-    font-size: 18px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 16px;
     width: 100%;
     height: 40px;
     border: none;
     border-radius: 10px;
-    background-color: #dcb0ff;
+    background-color: #6d71f9;
+    color: white;
     cursor: pointer;
 }
 button:hover{
-    background-color: #b58bdc;
+    background-color: #8188ff;
+}
+
+.post-btn{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .user-details{
-    width: 1000px;
+    width: 100%;
     padding: 15px 10px;
     display: flex;
     gap: 10px;
@@ -43,27 +51,28 @@ button:hover{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 30px 20px;
     margin-top: 50px;
 }
 
 .title-user{
-    width: 300px;
-    min-height: 200px;
+    font-size: 16px;
+    width: 250px;
+    min-height: 150px;
     padding: 10px;
-    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 10px;
     border-radius: 10px;
-    border: 1px solid #ededed;
     text-transform: capitalize;
+    border: 1px solid #a8b1ce;
 }
 
 .post-details{
-    background-color: #e8d9ff;
+    background-color: #8188ff;
+
 }
 .post-details:hover{
-    background-color: #dfccff;
+    background-color: #6d71f9;
 }

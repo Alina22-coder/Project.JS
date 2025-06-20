@@ -46,6 +46,7 @@ if(users && selectedUserId){
                 const postsBtn = document.createElement('button');
                 postsBtn.innerText = 'Post of current user';
                 postsBtn.type = 'button';
+                postsBtn.className = 'post-btn';
 
                 userDetails.appendChild(postsBtn);
 

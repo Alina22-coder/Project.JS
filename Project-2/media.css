@@ -1,0 +1,37 @@
+@media screen and (max-width: 1200px){
+    body, button, input{
+        font-size: 15px;
+    }
+
+    .buttons{
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    body, button, input{
+        font-size: 13px;
+    }
+
+    .buttons{
+        padding-top: 16px;
+    }
+}
+
+@media screen and (max-width: 1016px){
+    .input-group, .input-list{
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    button{
+        padding: 6px;
+    }
+}
+
+@media screen and (max-width: 413px){
+    .buttons{
+        padding-top: 32px;
+    }
+}
