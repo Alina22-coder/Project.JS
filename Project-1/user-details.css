@@ -11,6 +11,9 @@ body{
     line-height: 1.5;
     color: #272848;
 
+    max-width: 1400px;
+    margin: 0 auto
+
 }
 
 ul{

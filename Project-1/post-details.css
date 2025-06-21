@@ -10,6 +10,8 @@ body{
     font-weight: 400;
     line-height: 1.5;
     color: #021024;
+    max-width: 1300px;
+    margin: 0 auto
 }
 
 .post-div{
